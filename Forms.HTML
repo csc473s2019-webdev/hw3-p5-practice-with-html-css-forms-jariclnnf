@@ -12,36 +12,83 @@
             </p>
             <form id="survey-form">
                 <div group="info">
-                    <label id="name">Name</label><!--input tab-->
+                    <label id="name">Name</label><!--input tag-->
                     <input required type="name" placeholder="name.">
                 </div>
                     <div>
-                        <label id="phone">Phone</label><!--input tab-->
+                        <label id="phone">Phone</label><!--input tag-->
                         <input required type="phone" placeholder="phone number.">
                     </div>
                 
 
                 <div><label id="email">Email</label>
                     <input required type="email" placeholder="email.">
-                </div><!--input tab-->
+                </div><!--input tag-->
 
+                
+                <div><label id="bod">B.O.D</label>
+                <input required type="bod" placeholder="mm/dd/yyyy">
+                </div><!--input tag-->
+                <div>
+                    <span id="sex">
+                        <ul>
+                            <li><input required type="radio" value="male"> Male</li>
+                            <li><input required type="radio" value="female">Female</li>
+                            <li><input required type="radio" value="other">Don't want to answer</li>
+                        </ul>
+
+                    </span>
+
+                </div>
                 <div><label id="school">Which School/University are you attened?</label>
                     <input required type="School" placeholder="School Name">
-                </div><!--input tab-->
+                </div><!--input tag-->
+                <div><label id="status">What are you now?</label>
+                    <select>
+                        <option value="freshman">Freshman</option>
+                        <option value="sophomore">Sophomore</option>
+                        <option value="junior">Junior</option>
+                        <option value="senior">Senior</option>
+                        <option value="graduated"></option>Graduated</option>
+                    </select>
+                </div><!--drop down-->
+                <div><label id="status">Major</label>
+                <select>
+                    <option value="art">Art</option>
+                    <option value="biology">Biology</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="cs">Computer Science</option>
+                    <option value="math">Math</option>
+                    <option value="other">Other</option>
+                </select>
+                </div><!--drop down-->
+                <div><label>How much you satisified of your school?</label>
+                <span id="satis">
+                    <ul>
+                        <li><input type="radio" value="1">★</li>
+                        <li><input type="radio" value="2">★★</li>
+                        <li><input type="radio" value="3">★★★</li>
+                        <li><input type="radio" value="4">★★★★</li>
+                        <li><input type="radio" value="5">★★★★★</li>
+
+                    </ul>
+
+                </span>
                 
-                <div><label id="bod">B.O.D</label></div><!--drop down-->
-                <div><label id="status">What are you now?</label></div><!--drop down-->
-                <div><label id="status">major</label></div><!--drop down-->
-                <div><label>How much you satisified of your school?</label></div> <!--radio-->
+                </div> <!--radio-->
                 <div><label>What do you like/hate about your school?</label></div><!--txt area-->
-                <div><label>What did you do at school?</label></div><!--check box-->
-                <div><label>Any complaines about your school?</label></div><!--txt area-->
+                <div><label>What did you do at school?</label>
+                </div><!--check box-->
+                <div><label>Any complaines about your school?</label>
+                <textarea name="complaines" id="complains" cols="40" rows="10" placeholder="Enter your complaines..."></textarea>
+                </div><!--txt area-->
                 
                 
             </form>
         </div>
+        <footer>
+                <h3>©jariclnnf</h3>
+            </footer>
     </body>
-    <footer>
-        <h3>©jariclnnf</h3>
-    </footer>
+    
 </html>
