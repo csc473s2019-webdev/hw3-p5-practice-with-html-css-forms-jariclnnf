@@ -8,40 +8,37 @@
     <body>
         <div id="heading">
             <h1 id="title">Survey Form</h1>
+            <div id="form-outer">
             <p id="description">
             </p>
             <form id="survey-form">
                 <div group="info">
-                    <label id="name">Name</label><!--input tag-->
-                    <input required type="name" placeholder="name.">
+                    <label id="name">Name :</label><!--input tag-->
+                    <input required type="name" id="input-tag" placeholder="name.">
                 </div>
                     <div>
-                        <label id="phone">Phone</label><!--input tag-->
-                        <input required type="phone" placeholder="phone number.">
+                        <label id="phone" group="input-tag">Phone :</label><!--input tag-->
+                        <input required type="phone" id="input-tag" placeholder="phone number.">
                     </div>
                 
 
-                <div><label id="email">Email</label>
-                    <input required type="email" placeholder="email.">
+                <div><label id="email">Email :</label>
+                    <input required type="email" id="input-tag" placeholder="email.">
                 </div><!--input tag-->
 
                 
-                <div><label id="bod">B.O.D</label>
-                <input required type="bod" placeholder="mm/dd/yyyy">
+                <div><label id="bod">B.O.D :</label>
+                <input required type="bod" id="input-tag" placeholder="mm/dd/yyyy">
                 </div><!--input tag-->
-                <div>
-                    <span id="sex">
-                        <ul>
-                            <li><input required type="radio" value="male"> Male</li>
-                            <li><input required type="radio" value="female">Female</li>
-                            <li><input required type="radio" value="other">Don't want to answer</li>
-                        </ul>
-
-                    </span>
+                <div id="sex">
+                    <label for="sex">Gender :</label>
+                    <input required type="radio" value="male"> Male
+                    <input required type="radio" value="female">Female
+                    <input required type="radio" value="other">Don't want to answer
 
                 </div>
                 <div><label id="school">Which School/University are you attened?</label>
-                    <input required type="School" placeholder="School Name">
+                    <input required type="School" id="input-tag" placeholder="School Name">
                 </div><!--input tag-->
                 <div><label id="status">What are you now?</label>
                     <select>
@@ -64,14 +61,14 @@
                 </div><!--drop down-->
                 <div><label>How much you satisified of your school?</label>
                 <span id="satis">
-                    <ul>
-                        <li><input type="radio" value="1">★</li>
-                        <li><input type="radio" value="2">★★</li>
-                        <li><input type="radio" value="3">★★★</li>
-                        <li><input type="radio" value="4">★★★★</li>
-                        <li><input type="radio" value="5">★★★★★</li>
+                    
+                        <input type="radio" id="radio" value="1">★
+                        <input type="radio" id="radio" value="2">★★
+                        <input type="radio" id="radio" value="3">★★★
+                        <input type="radio" id="radio" value="4">★★★★
+                        <input type="radio" id="radio" value="5">★★★★★
 
-                    </ul>
+                 
 
                 </span>
                 
@@ -101,6 +98,7 @@
         <footer>
                 <h3>©jariclnnf</h3>
             </footer>
+        </div>
     </body>
     
 </html>

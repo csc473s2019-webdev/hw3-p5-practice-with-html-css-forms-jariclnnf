@@ -1,5 +1,31 @@
 body{
     background-color: rgb(51, 49, 49);
     /* rgb(61, 59, 59); inner bg*/
+    text-align: center;
     color: white;
+    
 }
+div{
+    margin: 20px;
+}
+#form-outer{
+    color: black;
+    background-color: rgb(230, 230, 230);
+    margin:auto;
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+
+}
+#input-tag {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+  
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+ #sex{
+     display: inline;
+ }
