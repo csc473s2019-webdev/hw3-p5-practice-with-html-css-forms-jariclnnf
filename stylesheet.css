@@ -1,46 +1,89 @@
-body{
+body {
     background-color: rgb(51, 49, 49);
     text-align: center;
     color: white;
-    
+
 }
-div{
+
+#survey-form {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#school {
+    margin-left: -14em;
+    padding: 0;
+
+}
+
+#status {
+    margin-left: -5.4em;
+}
+
+#status2 {
+    margin-left: -0.5em;
+}
+
+#behavior div {
+    text-align: left;
+}
+
+#checkbox {
+    padding: 0;
+    margin-left: 15em;
+}
+
+#behavior {
+    display: flex;
+    text-align: left;
+    display: inline-block;
+}
+
+div {
     margin: 20px;
     text-align: center;
 }
-label{
+
+label {
     display: inline-block;
     text-align: right;
 }
 
-input,select{vertical-align:middle;}
-#form-outer{
+input,select {
+    vertical-align: middle;
+}
+
+#form-outer {
     color: black;
     background-color: rgb(230, 230, 230);
-    margin:auto;
+    margin: auto;
     width: 1000px;
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
+
 #input-tag {
     height: 20px;
     width: 280px;
     padding: 5px;
-    border: 1px  rgb(230, 230, 230);
+    border: 1px rgb(230, 230, 230);
     border-radius: 2px;
-  }
-select{
+}
+
+select {
     height: 25px;
     width: 280px;
     padding: 5px;
-    border: 1px  rgb(230, 230, 230);
+    border: 1px rgb(230, 230, 230);
     border-radius: 2px;
 }
-#behavior{
-    display: inline-block;
-}
-#submit {
+
+
+/* #submit {
     background-color: rgb(34, 34, 34);
     color: white;
     font-size: 22px;
@@ -48,7 +91,9 @@ select{
     width: 100px;
     margin-top: 50px;
     border-radius: 10px;
-  }
-  #satis{
-      display: inline-block;
-  }
+    text-align: center;
+} */
+
+#satis {
+    display: inline-block;
+}

@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Survey Form</title>
-        <link rel="stylesheet" href="stylesheet.css">
 
-    </head>
-    <body>
-        <div id="heading">
-            <h1 id="title">Survey Form</h1>
-            <div id="form-outer">
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+    <div id="heading">
+        <h1 id="title">Survey Form</h1>
+        <div id="form-outer">
             <p id="description"> A survey for students satisification of school.
             </p>
             <form id="survey-form">
                 <div group="info">
-                    <label id="name">Name :</label><!--input tag-->
+                    <label id="name">Name :</label>
+                    <!--input tag-->
                     <input required type="name" id="input-tag" placeholder="name.">
                 </div>
-                    <div>
-                        <label id="phone" group="input-tag">Phone :</label><!--input tag-->
-                        <input required type="phone" id="input-tag" placeholder="phone number.">
-                    </div>
-                
+                <div>
+                    <label id="phone" group="input-tag">Phone :</label>
+                    <!--input tag-->
+                    <input required type="phone" id="input-tag" placeholder="phone number.">
+                </div>
+
 
                 <div><label id="email">Email :</label>
                     <input required type="email" id="input-tag" placeholder="email.">
-                </div><!--input tag-->
+                </div>
+                <!--input tag-->
 
-                
+
                 <div><label id="bod">B.O.D :</label>
-                <input required type="bod" id="input-tag" placeholder="mm/dd/yyyy">
-                </div><!--input tag-->
+                    <input required type="bod" id="input-tag" placeholder="mm/dd/yyyy">
+                </div>
+                <!--input tag-->
                 <div id="sex">
                     <label for="sex">Gender :</label>
                     <input required type="radio" value="male"> Male
@@ -39,7 +45,8 @@
                 </div>
                 <div><label id="school">Which School/University are you attened?</label>
                     <input required type="School" id="input-tag" placeholder="School Name">
-                </div><!--input tag-->
+                </div>
+                <!--input tag-->
                 <div><label id="status">What are you now?</label>
                     <select>
                         <option value="freshman">Freshman</option>
@@ -48,55 +55,63 @@
                         <option value="senior">Senior</option>
                         <option value="graduated">Graduated</option>
                     </select>
-                </div><!--drop down-->
-                <div><label id="status">Major: </label>
-                <select>
-                    <option value="art">Art</option>
-                    <option value="biology">Biology</option>
-                    <option value="chemistry">Chemistry</option>
-                    <option value="cs">Computer Science</option>
-                    <option value="math">Math</option>
-                    <option value="other">Other</option>
-                </select>
-                </div><!--drop down-->
+                </div>
+                <!--drop down-->
+                <div><label id="status2">Major: </label>
+                    <select>
+                        <option value="art">Art</option>
+                        <option value="biology">Biology</option>
+                        <option value="chemistry">Chemistry</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="math">Math</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <!--drop down-->
                 <div id=""><label>How much you satisified of your school?</label>
-                <span id="satis">      
+                    <span id="satis">
                         <input type="radio" id="radio" value="1">★
                         <input type="radio" id="radio" value="2">★★
                         <input type="radio" id="radio" value="3">★★★
                         <input type="radio" id="radio" value="4">★★★★
                         <input type="radio" id="radio" value="5">★★★★★
-                </span>
-                
-                </div> <!--radio-->
+                    </span>
+
+                </div>
+                <!--radio-->
                 <div id="behavior">
                     <label>What did you do at school?</label>
-                <span>
-                    <div>
-                        <div><input type="checkbox" name="onphone" value="onphone">On Phone
-                            <input type="checkbox" name="ongame" value="ongame">On Game</div>
-                        <div><input type="checkbox" name="sleep" value="sleep">Sleep in library
-                            <input type="checkbox" name="sleep" value="sleep">Sleep in Class</div>
-                        <div> <input type="checkbox" name="hw" value="hw">Doing Homework at last minutes
-                            <input type="checkbox" name="study" value="study">Study at the last minutes</div>
+                    <div id="checkbox">
+                        <span>
+                            <div>
+                                <div><input type="checkbox" name="onphone" value="onphone">On Phone
+                                    <input type="checkbox" name="ongame" value="ongame">On Game</div>
+                                <div><input type="checkbox" name="sleep" value="sleep">Sleep in library
+                                    <input type="checkbox" name="sleep" value="sleep">Sleep in Class</div>
+                                <div><input type="checkbox" name="hw" value="hw">Doing Homework at last minutes
+                                    <input type="checkbox" name="study" value="study">Study at the last minutes</div>
                         </span>
-                </div><!--check box-->
+                    </div>
+                </div>
+                <!--check box-->
                 <div><label>What do you like/hate about your school?</label>
-                    <textarea name="complaines" id="complains" cols="40" rows="10" placeholder="Enter your complaines..."></textarea></div><!--txt area-->
-                
+                    <textarea name="complaines" id="complains" cols="40" rows="10" placeholder="Enter your complaines..."></textarea></div>
+                <!--txt area-->
+
                 <div><label>Any complaines about your school?</label>
-                <textarea name="complaines" id="complains" cols="40" rows="10" placeholder="Enter your complaines..."></textarea>
-                </div><!--txt area-->
+                    <textarea name="complaines" id="complains" cols="40" rows="10" placeholder="Enter your complaines..."></textarea>
+                </div>
+                <!--txt area-->
                 <div>
                     <button id="submit" type="submit">Submit</button>
                 </div>
-                
+
             </form>
         </div>
         <footer>
-                <h3>©jariclnnf</h3>
-            </footer>
-        </div>
-    </body>
-    
+            <h3>©jariclnnf</h3>
+        </footer>
+    </div>
+</body>
+
 </html>
