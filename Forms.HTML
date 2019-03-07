@@ -60,20 +60,18 @@
                 </select>
                 </div><!--drop down-->
                 <div><label>How much you satisified of your school?</label>
-                <span id="satis">
-                    
+                <span id="satis">      
                         <input type="radio" id="radio" value="1">★
                         <input type="radio" id="radio" value="2">★★
                         <input type="radio" id="radio" value="3">★★★
                         <input type="radio" id="radio" value="4">★★★★
                         <input type="radio" id="radio" value="5">★★★★★
-
-                 
-
                 </span>
                 
                 </div> <!--radio-->
-                <div><label>What did you do at school?</label>
+                <div id="behavior">
+                    <label>What did you do at school?</label>
+                <span>
                     <div>
                         <div><input type="checkbox" name="onphone" value="onphone">On Phone
                             <input type="checkbox" name="ongame" value="ongame">On Game</div>
@@ -81,9 +79,7 @@
                             <input type="checkbox" name="sleep" value="sleep">Sleep in Class</div>
                         <div> <input type="checkbox" name="hw" value="hw">Doing Homework at last minutes
                             <input type="checkbox" name="study" value="study">Study at the last minutes</div>
-                        
-                       
-                    </div>
+                        </span>
                 </div><!--check box-->
                 <div><label>What do you like/hate about your school?</label>
                     <textarea name="complaines" id="complains" cols="40" rows="10" placeholder="Enter your complaines..."></textarea></div><!--txt area-->
@@ -91,7 +87,9 @@
                 <div><label>Any complaines about your school?</label>
                 <textarea name="complaines" id="complains" cols="40" rows="10" placeholder="Enter your complaines..."></textarea>
                 </div><!--txt area-->
-                
+                <div>
+                    <button id="submit" type="submit">Submit</button>
+                </div>
                 
             </form>
         </div>

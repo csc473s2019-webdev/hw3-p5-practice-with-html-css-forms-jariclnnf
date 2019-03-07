@@ -1,19 +1,19 @@
 body{
     background-color: rgb(51, 49, 49);
-    /* rgb(61, 59, 59); inner bg*/
     text-align: center;
     color: white;
     
 }
 div{
     margin: 20px;
-    
+    text-align: center;
 }
 label{
-    text-align: top;
+    display: inline-block;
+    text-align: right;
 }
 input, textarea{
-    text-align: left;
+    text-align: top;
 }
 #form-outer{
     color: black;
@@ -22,17 +22,25 @@ input, textarea{
     width: 1000px;
     padding-top: 20px;
     padding-bottom: 20px;
-    display: inline-block;
 
 }
 #input-tag {
     height: 20px;
     width: 280px;
     padding: 5px;
-  
-    border: 1px solid #c0c0c0;
+    border: 1px  rgb(230, 230, 230);
     border-radius: 2px;
   }
- #sex{
-     display: inline;
- }
+#behavior{
+    display: inline-block;
+}
+#submit {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 22px;
+    height: 50px;
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  
