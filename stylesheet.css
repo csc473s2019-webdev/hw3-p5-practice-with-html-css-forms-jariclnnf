@@ -2,7 +2,6 @@ body {
     background-color: rgb(51, 49, 49);
     text-align: center;
     color: white;
-
 }
 
 #survey-form {
@@ -50,8 +49,7 @@ label {
     text-align: right;
 }
 
-input,
-select {
+input,select {
     vertical-align: middle;
 }
 
@@ -62,7 +60,6 @@ select {
     width: 1000px;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
 #input-tag {
@@ -92,4 +89,12 @@ select {
     padding: 0;
     margin-left: 14em;
 
+}
+#question1{
+    text-align: center;
+}
+
+#question2{
+    text-align: center;
+    margin-left: 2.3em;
 }
