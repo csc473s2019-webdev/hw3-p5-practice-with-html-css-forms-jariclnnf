@@ -7,6 +7,13 @@ body{
 }
 div{
     margin: 20px;
+    
+}
+label{
+    text-align: top;
+}
+input, textarea{
+    text-align: left;
 }
 #form-outer{
     color: black;
